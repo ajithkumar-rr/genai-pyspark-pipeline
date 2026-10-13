@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Generated pipeline data and Spark output
+/data/raw/*.csv
+/data/raw/*.parquet
+/data/processed/*/
+/data/processed/*.csv
+spark-warehouse/
+metastore_db/
+derby.log
+.test-tmp*/
+.spark-tmp/
+/data/benchmarks/
